@@ -31,7 +31,12 @@
    
     self.dice = [[NSMutableArray alloc]init];
   
-    self.userScore.text = @"12500";
+    self.numberOfRolls = 0;
+    
+    
+    
+    
+//    self.userScore.text = @"12500";
     
     
 	
@@ -41,9 +46,7 @@
 
 -(void)didChooseDie:(UILabel *)dieLabel {
     
-//    do i need to set up alpha and make these un-tap-able?
   
-    
     //add the dice label to the array for re-rolls
     [self.dice addObject:dieLabel];
 
@@ -54,9 +57,9 @@
     
 }
 
+- (IBAction)onRollButtonPressed:(id)sender 
 
-
--(IBAction)onRollButtonPressed:(DieLabel *)sender {
+ {
     
     if (self.numberOfRolls == 0)
     {
@@ -86,6 +89,8 @@
         
     }
     self.numberOfRolls++;
+   
+    
     
 }
 

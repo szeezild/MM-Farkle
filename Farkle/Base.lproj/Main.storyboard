@@ -88,7 +88,7 @@
                                 </connections>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NtG-g5-aEG">
-                                <rect key="frame" x="106" y="289" width="108" height="44"/>
+                                <rect key="frame" x="106" y="288" width="108" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
@@ -97,13 +97,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="onRollButtonPressed:" destination="SvQ-O9-eG1" eventType="touchUpInside" id="40j-JL-3qj"/>
-                                    <action selector="onRollButtonPressed:" destination="Fil-dG-a2g" eventType="touchUpInside" id="9yQ-7Q-KzB"/>
-                                    <action selector="onRollButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SEW-tT-QUC"/>
-                                    <action selector="onRollButtonPressed:" destination="7MN-Kq-Xli" eventType="touchUpInside" id="Swi-xr-R9c"/>
-                                    <action selector="onRollButtonPressed:" destination="2CD-my-xTt" eventType="touchUpInside" id="Vj0-GR-kEe"/>
-                                    <action selector="onRollButtonPressed:" destination="miR-wr-Kyi" eventType="touchUpInside" id="Vji-na-uoX"/>
-                                    <action selector="onRollButtonPressed:" destination="DQ1-Jk-Ycb" eventType="touchUpInside" id="Zpo-wB-Ufs"/>
+                                    <action selector="onRollButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JRY-KZ-fUe"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9O-31-t6c">
